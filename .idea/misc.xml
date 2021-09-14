@@ -4,8 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ahrim/AndroidStudioProjects/laundryapp2/app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
-        <entry key="..\:/Users/ahrim/AndroidStudioProjects/laundryapp2/app/src/main/res/layout/laundry_information_customer.xml" value="0.12681159420289856" />
-        <entry key="..\:/Users/ahrim/AndroidStudioProjects/laundryapp2/app/src/main/res/layout/laundry_leave_customer.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/ahrim/AndroidStudioProjects/laundryapp2/app/src/main/res/layout/laundry_information_customer.xml" value="0.33" />
+        <entry key="..\:/Users/ahrim/AndroidStudioProjects/laundryapp2/app/src/main/res/layout/laundry_leave_customer.xml" value="0.33" />
         <entry key="..\:/Users/ahrim/AndroidStudioProjects/laundryapp2/app/src/main/res/layout/laundrycheck_customer.xml" value="0.1" />
         <entry key="..\:/Users/ahrim/AndroidStudioProjects/laundryapp2/app/src/main/res/layout/laundryitem_boss.xml" value="0.22916666666666666" />
         <entry key="..\:/Users/ahrim/AndroidStudioProjects/laundryapp2/app/src/main/res/layout/laundrylocation_boss.xml" value="0.22916666666666666" />

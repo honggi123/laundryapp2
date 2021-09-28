@@ -23,6 +23,18 @@
         <entry key="..\:/android studio/laundryapp/app/src/main/res/layout/receive_laundry.xml" value="0.36614583333333334" />
         <entry key="..\:/android studio/laundryapp/app/src/main/res/layout/receive_laundryitem.xml" value="0.36614583333333334" />
         <entry key="..\:/android studio/laundryapp/app/src/main/res/layout/register_laundryshop.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/laundry_information_customer.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/laundry_leave_customer.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/laundrycheck_customer.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/laundryitem_boss.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/laundrylocation_boss.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/login.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/receievelaundryitem_boss.xml" value="0.35052083333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/receive_customer.xml" value="0.35052083333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/register.xml" value="0.35052083333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/register_id.xml" value="0.36614583333333334" />
+        <entry key="..\:/android studio/laundryapp2/app/src/main/res/layout/register_laundryshop_boss.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>

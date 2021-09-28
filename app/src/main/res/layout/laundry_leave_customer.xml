@@ -5,39 +5,81 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="256dp"
-        android:layout_height="201dp"
-        android:layout_weight="1"
-        android:scrollbarFadeDuration="0"
-        android:scrollbarSize="5dp"
-        android:scrollbarThumbVertical="@android:color/darker_gray"
-        android:scrollbars="vertical"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="78dp" />
-
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="세탁물 맡기기"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="세탁소 : "
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="78dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="세탁소 이름"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="세탁물 종류 :"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="324dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="벌 수"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="종류 선택"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="1dp"
+        android:background="#2F759FFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_menuhome"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+        <ImageView
+            android:id="@+id/btn_menucontent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_content_paste_24" />
+
+        <ImageView
+            android:id="@+id/btn_menuput"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/clothicon" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

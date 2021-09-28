@@ -5,50 +5,98 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="109dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="58dp"
+        android:backgroundTint="#0C1E55"
+        android:text="회원가입"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_login"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
         android:text="ID"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="163dp" />
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
 
     <EditText
+        android:id="@+id/edit_id"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
         android:hint="아이디를 입력하세요"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="213dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
         android:text="PASSWORD"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="286dp" />
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
 
     <EditText
+        android:id="@+id/edit_password"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
         android:hint="비밀번호를 입력하세요"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="328dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_login"
         android:layout_width="109dp"
         android:layout_height="62dp"
-        android:text="LOGIN"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="460dp" />
+        android:layout_marginEnd="58dp"
+        android:backgroundTint="#0C1E55"
+        android:text="로그인"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="126dp"
         android:layout_height="108dp"
-        app:srcCompat="@drawable/resource__"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="39dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505"
+        app:srcCompat="@drawable/resource__" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

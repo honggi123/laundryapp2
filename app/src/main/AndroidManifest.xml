@@ -22,6 +22,9 @@
         <activity android:name=".signupActivity"></activity>
         <activity android:name=".chklocationActivity"></activity>
 
+        <activity android:name=".viewcontentActivity"></activity>
+        <activity android:name=".leaveActivity"></activity>
+
     </application>
 
 </manifest>
